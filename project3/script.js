@@ -1,3 +1,4 @@
+//Daniel Mason 03/30/2025
 document.addEventListener("DOMContentLoaded", function () {
     // Get the forms and tables
     const userForm = document.getElementById("userForm");
