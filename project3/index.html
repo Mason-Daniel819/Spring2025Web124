@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniel Mason">
+  <meta name="date" content ="03/16/2025">
+  <!--Daniel Mason 03/16/2025-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web124 Project 3</title>
+</head>
+<body>
+    <h1>Web 124-Project 3</h1>
+    <form name="userForm" id="userForm">
+    <label for="yourName">Type your Full Name: </label>
+    <input type="text" name="yourName" id="yourName" placeholder="Your First Name"><br>
+    <label for="yourSalary">Type your desired salary: </label>
+    <input type="text" name="yourSalary" id="yourSalary" placeholder="Your Desired Salary"><br>
+    <label for="veteranStatus">Are you a veteran?</label><input type="checkbox" name="isVeteran" id="isVeteran">
+    <button type="submit" id="submit">Submit Your Info</button><br> 
+    </form>
+    <form name="friendForm" id="friendForm">
+    <label for="friendName">Type your Friends full Name: </label>
+    <input type="text" name="friendName" id="friendName" placeholder="Your Friends Full Name"><br>
+    <label for="friendSalary">What is your friends desired salary? </label>
+    <input type="text" name="friendSalary" id="friendSalary" placeholder="Friends Desired Salary">
+    <button type="submit" id="submitFriend">Submit your Friends Info</button>
+</form>
+    <h2>Submitted Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Your Name</th>
+                <th>Your Salary</th>
+                <th>Veteran Status</th>
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Friend Name</th>
+                <th>Friend Salary</th>
+            </tr>
+        </thead>
+        <tbody id="friendTable"></tbody>
+    </table>
+
+<script src="script.js"></script>
+</body>
+</html>
