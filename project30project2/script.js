@@ -1,3 +1,9 @@
+/*Daniel Mason 04/04/2025*/
+/*<meta name="author" content="Daniel Mason">
+/*Daniel Mason 04/04/2025*/
+/*I adapted this project from Adapted from https://javascript30.com/ 5 flex panels gallery*/
+
+
 const panels = document.querySelectorAll('.panel');
 function toggleOpen(){
     this.classList.toggle('open');
