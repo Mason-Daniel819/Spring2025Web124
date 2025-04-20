@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta name="author" content="Daniel Mason">
+  <meta name="date" content ="04/20/2025">
+  <!--Daniel Mason 04/20/2025-->
+  <!--Adapted from https://javascript30.com/ 10 Hold Shift And Check Checkboxes-->
+  <!--Changed this to be a dynamic to-do list. My son is ADHD and this will help him drastically. -->
+  <!--I added a heading at the top, and a text box to add things to the to Do list. I also made it generic for everyday use.-->
+  <!--I added a button to add additional html elements using a the text box and button.-->
+  <!--I added a remove checked item function for things that have been completed, things that were added by mistake or things that were not necessary for that day.-->
+</head>
+<body>
+  
+ <h1>To Do List</h1>
+ <section class="entry">
+    <input type="text"  placeholder="Task to Add">
+    <input type="button" value="Add" class="button">
+    <input type="button" value="Remove Checked" id="removeChecked" class="button">
+</section>
+ 
+  <div class="inbox">
+    <div class="item">
+      <input type="checkbox">
+      <p>Get Dressed for School</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Eat Breakfast</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Brush/Floss Teeth</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Check Backpack for all items for school</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Go to School</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Do Homework</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Eat Dinner</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Go to Evening Activity</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Brush/Floss Teeth</p>
+    </div>
+  </div>
+
+<script src="scripts.js">
+</script>
+</body>
+</html>
