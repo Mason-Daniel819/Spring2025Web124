@@ -11,11 +11,6 @@ body {
 }
 
 
-    .grid {
-        display: flex;
-        padding: 5px;
-    }
-
 
 @media(min-width: 700px){
    /*Tablet screen size*/ 
