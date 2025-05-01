@@ -1,0 +1,34 @@
+/*Daniel Mason 04/29/2025*/
+/*Web124 Javascript 2 final project*/
+/*Background Image Source- https://www.goodfon.com/minimalism/wallpaper-blackboard-math-calculations-drawing-earth-simple-background.html*/
+
+/*Mobile Screen Size*/
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+}
+
+
+    .grid {
+        display: flex;
+        padding: 5px;
+    }
+
+
+@media(min-width: 700px){
+   /*Tablet screen size*/ 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media(min-width: 1000px){
+    /*Computer Screen Size*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
